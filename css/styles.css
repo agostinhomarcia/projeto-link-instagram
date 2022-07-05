@@ -1,0 +1,74 @@
+/* latin */
+
+
+body {
+    background: rgb(238, 214, 174);
+    background: radial-gradient(circle, rgba(238, 214, 174, 1) 0%, rgba(233, 148, 179, 0.6661852240896359) 20%, rgba(143, 22, 66, 0.6661852240896359) 34%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inspiration', 'cursive';
+}
+
+.name {
+    font-family: 'cursive';
+    font-size: 4.5rem;
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.box-top {
+    width: 95vw;
+    height: 35vh;
+    background: rgb(179, 145, 145);
+    background: linear-gradient(0deg, rgba(179, 145, 145, 1) 0%, rgba(195, 34, 147, 0.17879026610644255) 66%);
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+}
+
+.about {
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    color: #f4e8e8;
+    text-align: center;
+    font-size: 3rem;
+    padding: 5px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-link {
+    background-color: #6d0446;
+    height: 10vh;
+    width: 80vw;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: cursive;
+
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Inspiration', 'cursive';
+
+}
+
+.box-link:hover {
+    border: 1px solid #000000;
+    background-color: #ff7fd4;
+    color: #fff;
+}
